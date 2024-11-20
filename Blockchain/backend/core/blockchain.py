@@ -42,3 +42,4 @@ class Blockchain:
 if __name__ == "__main__":
     blockchain = Blockchain()
     blockchain.main()
+    print(main)
