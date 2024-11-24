@@ -23,7 +23,7 @@ class Blockchain:
         
     def addBlock(self, BlockHeight, prevBlockHash):
         timestamp =int(time.time())
-        Transaction = f"Trump is {BlockHeight} Prez bitcoin is at 99,000 still"
+        Transaction = f"Trump is {BlockHeight} Prez bitcoin is at 98,000 "
         merkleRoot = sha256(Transaction.encode()).hex()
         bits = 'ffff001f'
         blockheader = BlockHeader(VERSION, prevBlockHash, merkleRoot, timestamp, bits) 
